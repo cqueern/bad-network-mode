@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bad Network Mode</title>
-  <style>
+<style>
   @media print {
     @page {
       size: letter landscape;
@@ -78,12 +78,16 @@
       font-size: 7.5pt;
     }
 
+    .no-print {
+      display: none;
+    }
+
     a {
       color: inherit;
       text-decoration: none;
     }
   }
-</style>   
+</style>
   <meta name="slim-profile" content="SLIM v1.0">
   <meta name="description" content="Step-by-step instructions to make your phone, computer or tablet work better when the internet is slow or unreliable.">
 
@@ -192,7 +196,7 @@
 
   <footer>
     <p>Your devices will now use less data, avoid large downloads, and perform better on weak or congested networks.</p>
-    <p>This page is designed for low-bandwidth use. No scripts. No images. No tracking.</p>
+    <p class="no-print">This page is designed for low-bandwidth use. No scripts. No images. No tracking.</p>
   </footer>
 </body>
 </html>
