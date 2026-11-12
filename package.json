@@ -1,0 +1,10 @@
+{
+  "name": "bad-network-mode",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "7.2.0"
+  }
+}
