@@ -4,199 +4,126 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bad Network Mode</title>
-<style>
-  @media print {
-    @page {
-      size: letter landscape;
-      margin: 0.35in;
-    }
-
-    html {
-      font-size: 9pt;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.15;
-      color: #000;
-    }
-
-    header {
-      margin-bottom: 0.12in;
-    }
-
-    header p {
-      margin: 0.04in 0;
-    }
-
-    h1 {
-      margin: 0 0 0.04in;
-      font-size: 18pt;
-    }
-
-    main {
-      columns: 3;
-      column-gap: 0.25in;
-      column-rule: 0.5pt solid #aaa;
-    }
-
-    section {
-      margin: 0 0 0.1in;
-    }
-
-    h2 {
-      margin: 0 0 0.04in;
-      font-size: 13pt;
-      break-after: avoid;
-    }
-
-    h3 {
-      margin: 0.08in 0 0.02in;
-      font-size: 9.5pt;
-      line-height: 1.1;
-      break-after: avoid;
-    }
-
-    ol {
-      margin: 0 0 0.05in;
-      padding-left: 0.2in;
-    }
-
-    li {
-      margin: 0;
-      padding: 0;
-    }
-
-    p {
-      margin: 0.04in 0;
-    }
-
-    footer {
-      margin-top: 0.08in;
-      text-align: center;
-      font-size: 7.5pt;
-    }
-
-    .no-print {
-      display: none;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-  }
-</style>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
   <meta name="slim-profile" content="SLIM v1.0">
   <meta name="description" content="Step-by-step instructions to make your phone, computer or tablet work better when the internet is slow or unreliable.">
 
 </head>
 
-<body>
-  <header>
-    <h1>Bad Network Mode</h1>
-    <p>When the internet is not working well - maybe due to a disaster - follow these steps for better performance on your <a href="#ios">iPhone and iPad</a>, <a href="#mac">Mac</a> or <a href="#android">Android</a> device.</p>
+<body style="font-family: system-ui, sans-serif; color: #172b32;">
+  <header style="text-align: center;">
+    <h1 style="font-family: Georgia, serif; color: #123e46;">Bad Network Mode</h1>
+    <p>Use less data when the internet is slow, congested, or unreliable.</p>
+    <nav aria-label="Jump to your device">
+      <p style="font-weight: bold;">
+        <a href="#ios" style="color: #005e68;">iPhone and iPad</a> ·
+        <a href="#mac" style="color: #005e68;">Mac</a> ·
+        <a href="#android" style="color: #005e68;">Android</a>
+      </p>
+    </nav>
   </header>
 
+  <hr>
+
   <main>
-
     <section>
-      <h2 id="ios">🍎📱 iPhone and iPad</h2>
+      <h2 id="ios" style="font-family: Georgia, serif; color: #123e46;">iPhone and iPad</h2>
 
-      <h3>Step 1: Turn on Low Data Mode for Cellular</h3>
+      <h3><span style="color: #005e68;">1.</span> Turn on Low Data Mode for Cellular</h3>
       <ol>
-        <li>Open Settings.</li>
-        <li>Tap Cellular.</li>
-        <li>Tap Cellular Data Options.</li>
+        <li>Open <strong>Settings</strong>.</li>
+        <li>Tap <strong>Cellular</strong>.</li>
+        <li>Tap <strong>Cellular Data Options</strong>.</li>
         <li>If you see Data Mode, tap it.</li>
         <li>Select Low Data Mode, or turn on Low Data Mode if it appears as a switch.</li>
       </ol>
 
-      <h3>Step 2: Turn on Low Data Mode for Wi-Fi</h3>
+      <h3><span style="color: #005e68;">2.</span> Turn on Low Data Mode for Wi-Fi</h3>
       <ol>
-        <li>Open Settings.</li>
+        <li>Open <strong>Settings</strong>.</li>
         <li>Tap Wi-Fi</li>
         <li>Tap the Info button to the right of the Wi-Fi network that you're connected to.</li>
-        <li>Turn on Low Data Mode.</li>
+        <li>Turn on <strong>Low Data Mode</strong>.</li>
       </ol>
 
-      <p class="note">Note that if you change Wi-Fi networks, you'll have to do this Step again.</p>
+      <p style="font-style: italic;"><strong>Wi-Fi note:</strong> Repeat this step when you switch networks.</p>
 
-      <h3>Step 3: Lower video quality when watching</h3>
+      <h3><span style="color: #005e68;">3.</span> Lower video quality when watching</h3>
       <ol>
         <li>In the video player, open Settings.</li>
         <li>Select a lower option such as 480p or Data Saver.</li>
       </ol>
     </section>
 
+    <hr>
 
     <section>
-      <h2 id="mac">🍎💻 Mac</h2>
+      <h2 id="mac" style="font-family: Georgia, serif; color: #123e46;">Mac</h2>
       <h3>Turn on Low Data Mode for Wi-Fi</h3>
       <ol>
-        <li>Open System Settings.</li>
-        <li>Click Wi-Fi.</li>
+        <li>Open <strong>System Settings</strong>.</li>
+        <li>Click <strong>Wi-Fi</strong>.</li>
         <li>Click the grey box labeled Details next to the Wi-Fi network that you're connected to.</li>
-        <li>Turn on Low Data Mode.</li>
+        <li>Turn on <strong>Low Data Mode</strong>.</li>
       </ol>
 
-   <p class="note">Note that if you change Wi-Fi networks, you'll have to do this Step again.</p>
+      <p style="font-style: italic;"><strong>Wi-Fi note:</strong> Repeat this step when you switch networks.</p>
     </section>
 
+    <hr>
+
     <section>
-      <h2 id="android">🤖 Android</h2>
-      <h3>Step 1: Turn on Data Saver</h3>
+      <h2 id="android" style="font-family: Georgia, serif; color: #123e46;">Android</h2>
+      <h3><span style="color: #005e68;">1.</span> Turn on Data Saver</h3>
       <ol>
-        <li>Open Settings.</li>
-        <li>Tap Network and Internet.</li>
-        <li>Tap Data Saver.</li>
-        <li>Turn on Use Data Saver.</li>
+        <li>Open <strong>Settings</strong>.</li>
+        <li>Tap <strong>Network and Internet</strong>.</li>
+        <li>Tap <strong>Data Saver</strong>.</li>
+        <li>Turn on <strong>Use Data Saver</strong>.</li>
       </ol>
 
-      <h3>Step 2: Turn off automatic app updates</h3>
+      <h3><span style="color: #005e68;">2.</span> Turn off automatic app updates</h3>
       <ol>
         <li>Open the Play Store.</li>
         <li>Tap your profile icon.</li>
-        <li>Tap Settings.</li>
-        <li>Tap Network preferences.</li>
-        <li>Tap Auto-update apps.</li>
+        <li>Tap <strong>Settings</strong>.</li>
+        <li>Tap <strong>Network preferences</strong>.</li>
+        <li>Tap <strong>Auto-update apps</strong>.</li>
         <li>Select Don’t auto-update apps.</li>
       </ol>
 
-      <h3>Step 3: Stop photo and cloud backup</h3>
+      <h3><span style="color: #005e68;">3.</span> Stop photo and cloud backup</h3>
       <ol>
-        <li>Open Google Photos.</li>
+        <li>Open <strong>Google Photos</strong>.</li>
         <li>Tap your profile icon.</li>
-        <li>Tap Photos settings.</li>
-        <li>Tap Backup.</li>
-        <li>Turn off Backup.</li>
+        <li>Tap <strong>Photos settings</strong>.</li>
+        <li>Tap <strong>Backup</strong>.</li>
+        <li>Turn off <strong>Backup</strong>.</li>
       </ol>
 
-      <h3>Step 4: Lower video quality when watching</h3>
+      <h3><span style="color: #005e68;">4.</span> Lower video quality when watching</h3>
       <ol>
         <li>In the video player, open Settings.</li>
         <li>Select a lower quality such as 480p or Data Saver.</li>
       </ol>
 
-      <h3>Step 5 (Optional): Restrict background data</h3>
+      <h3><span style="color: #005e68;">5.</span> Restrict background data (optional)</h3>
       <ol>
         <li>Go back to Settings.</li>
-        <li>Tap Apps.</li>
-        <li>Tap See all apps.</li>
+        <li>Tap <strong>Apps</strong>.</li>
+        <li>Tap <strong>See all apps</strong>.</li>
         <li>Select a high-usage app such as Facebook, Instagram, or YouTube.</li>
-        <li>Tap Mobile data and Wi-Fi.</li>
-        <li>Turn off Background data.</li>
+        <li>Tap <strong>Mobile data and Wi-Fi</strong>.</li>
+        <li>Turn off <strong>Background data</strong>.</li>
         <li>Repeat for other nonessential apps.</li>
       </ol>
-
     </section>
-
   </main>
 
-  <footer>
+  <hr>
+
+  <footer style="font-style: italic;">
     <p>Your devices will now use less data, avoid large downloads, and perform better on weak or congested networks.</p>
-    <p class="no-print">This page is designed for low-bandwidth use. No scripts. No images. No tracking.</p>
   </footer>
 </body>
 </html>
